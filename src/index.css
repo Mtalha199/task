@@ -1,0 +1,132 @@
+
+html, body {
+  height: 100%;
+  min-height: 100vh; 
+}
+
+body {
+  background-color: #060608 !important;
+  color: #fff !important;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.connect-button {
+  color:#B0D357; 
+  border: 2px solid white; 
+  border-radius: 20px;
+  background-color: transparent; 
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.film-strip {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333; 
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.film-frame {
+  width: 20px;
+  height: 10px;
+  background-color: #fff;
+  margin: 2px;
+}
+
+.image-placeholder img {
+  width: 100%;
+  max-width: 400px; 
+  height: auto;
+}
+
+
+section {
+  padding: 20px 0;
+}
+
+
+span.font-weight-bold {
+  font-size: 1.2em;
+}
+
+span.text-success {
+  font-size: 1.5em;
+  color: #28a745;
+}
+
+
+.img-fluid {
+  border: 2px solid white; 
+  padding: 1px;
+   border-radius: 10px ;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%; 
+  height: 90%; 
+  display: block;
+}
+.latest-stories-container {
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+
+.latest-stories-button {
+  background-color: black; 
+  color: #B0D357; 
+  border: 2px solid #B0D357; 
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+  border-radius: 10px;
+}
+
+.line-extension {
+  flex-grow: 2; 
+  border-top: 2px solid #B0D357; 
+  margin-right: 18rem;
+  width: 20%;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 20px; 
+}
+.card {
+  width: 300px;
+  height: 400px; 
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px; 
+  margin: 20px; 
+ 
+  background-size: cover;
+ 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+
+.card-title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px; 
+  margin: 0;
+}
+
+.card-subtitle {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 16px; 
+  margin: 10px 0 0; 
+}
