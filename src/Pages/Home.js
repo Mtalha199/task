@@ -1,7 +1,6 @@
 import React from 'react';
 import CommonStripDesign from '../Components/CommonStripDesign';
 import HeadingCommon from '../Components/headingCommon';
-import Card from '../Components/CardCommon';
 import ImageSlider from '../Components/ImagesSlider';
 const Home = () => {
     return (
